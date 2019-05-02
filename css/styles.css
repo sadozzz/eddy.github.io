@@ -1,0 +1,88 @@
+/* Search */
+
+.search {
+  margin-top: 25px;
+}
+
+.search__input {
+  display: flex;
+  padding: 15px 0px 15px 30px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgba(117, 117, 117, 0.5);
+  color: rgba(98, 98, 98, 0.5);
+  font-size: 13px;
+  line-height: 24px;
+  outline: none;
+  background: url("../img/search.svg") no-repeat 0px;
+  background-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .search__input {
+    font-size: 16px;
+  }
+}
+
+/* Restaurant-list */
+
+.restaurant-list {
+  margin-bottom: 48px;
+}
+
+@media (min-width: 992px) {
+  .restaurant-list {
+    margin-bottom: 80px;
+  }
+}
+
+.restaurant-list__title {
+  font-size: 22px;
+  line-height: 34px;
+  color: #1d1d1d;
+  margin: 40px 0 0;
+}
+
+@media (min-width: 768px) {
+  .restaurant-list__title {
+    margin-top: 56px;
+  }
+}
+
+.restaurant-list__info {
+  margin: 16px 0 20px;
+}
+
+.restaurant-list__photo {
+  height: 250px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .restaurant-list__photo {
+    height: 256px;
+    width: 100%;
+  }
+}
+
+.restaurant-list__name {
+  font-size: 16px;
+  line-height: 24px;
+  color: #1d1d1d;
+  margin: 16px 0px 4px 0px;
+}
+
+.restaurant-list__category {
+  display: inline-flex;
+  font-size: 14px;
+  line-height: 21px;
+  color: #626262;
+  margin: 0px 0px 4px 0px;
+}
+
+.restaurant-list__time {
+  font-size: 13px;
+  line-height: 21px;
+  color: #1d1d1d;
+  margin: 0;
+}

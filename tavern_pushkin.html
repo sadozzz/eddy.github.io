@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>UberEats</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css">
+  <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.1.0/flexboxgrid2.css">
+  <link rel="stylesheet" href="./css/shared.css">
+  <link rel="stylesheet" href="./css/tavern.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+  <link rel="shortcut icon" href="./favicon.ico">
+</head>
+
+<body>
+
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header__nav">
+
+        <div class="logo">
+          <img class="logo__image" src="./img/logo-black.svg" alt="UberEats" title="UberEats">
+        </div>
+
+        <div class="location">
+          <form class="location__form" action="#">
+            <select class="location__time" name="time">
+              <option value="ASAP">ASAP</option>
+            </select>
+            <p class="location__text">to</p>
+            <input class="location__address" type="text" placeholder="ul. Bolshaya Dmitrovka, 22">
+          </form>
+        </div>
+
+        <div class="header__buttons">
+          <button class="header__button header__button--sign-up">Sign Up</button>
+          <button class="header__button header__button--register">Register</button>
+          <button class="header__button--basket"></button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="tavern">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-xs-12 col-md-7 col-lg-5">
+            <div class="tavern__description">
+              <h1 class="tavern__name">Трактир «Пушкин»</h1>
+              <h2 class="tavern__info">₽₽₽ • Европейская</h2>
+              <span class="tavern__time">40 - 50 Min</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <nav class="nav">
+      <div class="container">
+
+        <a class="nav__link nav__link--active" href="#">Закуски</a>
+        <a class="nav__link" href="#">Салаты</a>
+        <a class="nav__link" href="#">Супы</a>
+        <a class="nav__link" href="#">Горячие блюда</a>
+        <a class="nav__link" href="#">Гарниры</a>
+        <a class="nav__link" href="#">Десерты</a>
+
+      </div>
+    </nav>
+
+    <section class="menu">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-xs-12">
+            <h3 class="menu__title">Закуски</h3>
+            <div class="menu__line"></div>
+          </div>
+
+          <div class="col-xs-12 col-md-12 col-lg-6">
+            <div class="menu__block">
+              <div class="menu__description">
+                <h4 class="menu__name">Сельдь на бородинском хлебе</h4>
+                <h6 class="menu__info">С яйцом и огурцом</h6>
+                <h5 class="menu__price">240 ₽</h5>
+              </div>
+              <img class="menu__img" src="./img/menu1.jpg" alt="Сельдь на бородинском хлебе">
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-md-12 col-lg-6">
+            <div class="menu__block">
+              <div class="menu__description">
+                <h4 class="menu__name">Соленья ассорти</h4>
+                <h5 class="menu__price">320 ₽</h5>
+              </div>
+              <img class="menu__img" src="./img/menu2.jpg" alt="Соленья ассорти">
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-md-12 col-lg-6">
+            <div class="menu__block">
+              <div class="menu__description">
+                <h4 class="menu__name">Грибы маринованные</h4>
+                <h5 class="menu__price">300 ₽</h5>
+              </div>
+              <img class="menu__img" src="./img/menu3.jpg" alt="Соленья ассорти">
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-md-12 col-lg-6">
+            <div class="menu__block">
+              <div class="menu__description">
+                <h4 class="menu__name">Сало домашнее с горчицей</h4>
+                <h5 class="menu__price">320 ₽</h5>
+              </div>
+              <img class="menu__img" src="./img/menu4.jpg" alt="Грибы маринованные">
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-md-12 col-lg-6">
+            <div class="menu__block">
+              <div class="menu__description">
+                <h4 class="menu__name">Малосольная семга</h4>
+                <h5 class="menu__price">390 ₽</h5>
+              </div>
+              <img class="menu__img" src="./img/menu5.jpg" alt="Сало домашнее с горчицей">
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-md-12 col-lg-6">
+            <div class="menu__block">
+              <div class="menu__description">
+                <h4 class="menu__name">Язык говяжий с хреном</h4>
+                <h5 class="menu__price">350 ₽</h5>
+              </div>
+              <img class="menu__img" src="./img/menu6.jpg" alt="Малосольная семга">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-xs-12">
+          <div class="logo--footer">
+            <img class="logo__image--footer" src="./img/logo-white.svg" alt="UberEats" title="UberEats">
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-md-4 col-lg-4">
+          <div class="footer__language">
+            <select class="footer__select" name="language">
+              <option value="English">English</option>
+            </select>
+          </div>
+
+          <h5 class="footer__hashtag">
+            <span class="footer__hashtag--green">#</span>UberEats
+          </h5>
+
+          <div class="footer__social">
+            <a class="social__icon social__icon--facebook" href="#"></a>
+            <a class="social__icon social__icon--twitter" href="#"></a>
+            <a class="social__icon social__icon--instagram" href="#"></a>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-md-4 col-lg-42">
+          <div class="footer__menu--first ">
+            <a class="menu__item" href="#">About UberEats</a>
+            <a class="menu__item" href="#">Become a Delivery Partner</a>
+            <a class="menu__item" href="#">Become a Restaurant Partner</a>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-md-4 col-lg-4">
+          <div class="footer__menu--last">
+            <a class="menu__item" href="#">See all cities</a>
+            <a class="menu__item" href="#">Pricing</a>
+            <a class="menu__item" href="#">Help</a>
+            <a class="menu__item" href="#">FAQs</a>
+          </div>
+        </div>
+
+        <div class="col-xs-12">
+          <div class="footer__apps">
+            <a class="footer__app--applestore" href="#"></a>
+            <a class="footer__app--googleplay" href="#"></a>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-md-4 col-lg-4">
+          <p class="footer__copyright footer__copyright--first" href="#">&copy; 2017 Uber Technologies Inc.</p>
+        </div>
+
+        <div class="col-xs-12 col-md-4 col-lg-4">
+          <a class="footer__copyright" href="#">Privacy</a>
+        </div>
+
+        <div class="col-xs-12 col-md-4 col-lg-4">
+          <a class="footer__copyright footer__copyright--last" href="#">Terms</a>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <a class="scroll--up" href="#header"></a>
+
+</body>
+
+</html>
